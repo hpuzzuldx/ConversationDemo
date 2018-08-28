@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        ndk{
+            abiFilters "armeabi","armeabi-v7a", "mips", "x86"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    greendao {
+        schemaVersion 1
+        daoPackage 'com.ldx.conversationbase.db'
+        targetGenDir 'src/main/java'
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+   // compile(name: 'xiaoicesdk.landingpage-release', ext: 'aar')
+    compile rootProject.ext.dependencies["appcompat-v7"]
+    compile rootProject.ext.dependencies["recyclerView"]
+    compile rootProject.ext.dependencies["design"]
+
+    compile rootProject.ext.dependencies["glide"]
+    compile rootProject.ext.dependencies["andpermission"]
+    compile rootProject.ext.dependencies["greendao"]
+    compile rootProject.ext.dependencies["photoview"]
+    compile rootProject.ext.dependencies["bootomcore"]
+    compile rootProject.ext.dependencies["bootomcommon"]
+    compile rootProject.ext.dependencies["basepopup"]
+    compile rootProject.ext.dependencies["gifdrawable"]
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/xiconversation_fromuservoice_chat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/xiconversation_light_gray_6"
+        android:textSize="@dimen/xiconversation_chat_default_chattime_fontsize"
+        android:visibility="gone" />
+
+    <com.ldx.conversationbase.widget.XICircleImageView
+        android:id="@+id/xiconversation_fromuservoice_tb_other_user_icon"
+        android:layout_width="@dimen/xiconversation_chatview_headicon_defsize"
+        android:layout_height="@dimen/xiconversation_chatview_headicon_defsize"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/xiconversation_fromuservoice_chat_time" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xiconversation_fromuservoice_chat_time"
+        android:layout_toRightOf="@+id/xiconversation_fromuservoice_tb_other_user_icon"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/xiconversation_fromuservoice_voice_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <FrameLayout
+                android:id="@+id/xiconversation_fromuservoice_voice_receiver_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/xiconversation_chatfrom_bg_focused">
+
+                <View
+                    android:id="@+id/xiconversation_fromuservoice_id_receiver_recorder_anim"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical|left"
+                    android:background="@drawable/xiconversation_receiver_voiceicon" />
+            </FrameLayout>
+            <View
+                android:id="@+id/xiconversation_fromuservoice_receiver_voice_unread"
+                android:layout_width="@dimen/xiconversation_chatitem_unreadvoice"
+                android:layout_height="@dimen/xiconversation_chatitem_unreadvoice"
+                android:layout_gravity="right"
+                android:background="@drawable/xiconversation_msg_chat_voice_unread" />
+            <TextView
+                android:id="@+id/xiconversation_fromuservoice_voice_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/xiconversation_middle_gray_1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

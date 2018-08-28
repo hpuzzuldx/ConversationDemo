@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ldx.conversationother.photo.internal.ui.widget.PreviewViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"/>
+
+    <FrameLayout
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/preview_bottom_toolbar_bg">
+
+        <TextView
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_gravity="start"
+            android:text="@string/photo_button_back"
+            android:visibility="gone"
+            android:textSize="@dimen/photo_photopreview_toolbar_deffontsize"/>
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/preview_bottom_size"
+            android:textSize="@dimen/photo_photopreview_toolbar_deffontsize"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/button_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/photo_previewimg_sendtext_bgshape"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/childpreview_sendview_toolbar_apply"
+            android:text="@string/photo_button_apply_default"
+            android:textSize="@dimen/photo_photopreview_toolbar_deffontsize"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_photopreview_toolbar_defheight"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:layout_margin="8dp">
+        <ImageView
+            android:id="@+id/childpreview_toolbar_navibackimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/photo_ic_arrow_white_back"/>
+
+        <com.ldx.conversationother.photo.internal.ui.widget.CheckView
+            android:id="@+id/check_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:padding="10dp"/>
+    </FrameLayout>
+
+</RelativeLayout>

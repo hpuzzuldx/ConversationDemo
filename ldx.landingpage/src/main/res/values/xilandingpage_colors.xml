@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="xilandingpage_option_pressed">#e9e4e4</color>
+    <color name="xilandingpage_option_text_pressed">#000000</color>
+    <color name="xilandingpage_option_text">#080808</color>
+    <color name="xilandingpage_cancel_select">#1b1b1a</color>
+
+    <color name="xilandingpage_green">#00FF00</color>
+    <color name="xilandingpage_red">#FF0000</color>
+    <color name="xilandingpage_yellow">#FFFF88</color>
+    <color name="xilandingpage_gray">#D0D0D0</color>
+    <color name="xilandingpage_blue">#7B80E3</color>
+    <color name="xilandingpage_white">#ffffffff</color>
+    <color name="xilandingpage_black">#ff000000</color>
+    <color name="xilandingpage_transparent">#00000000</color>
+    <color name="xilandingpage_dkgray">#FF000000</color>
+
+    <color name="xilandingpage_layout_background">#00a89d</color>
+    <color name="xilandingpage_image_select_bottom_text_color">#51D4C6</color>
+    <color name="xilandingpage_toolbar_haeder_color">#ffffff</color>
+    <color name="xilandingpage_sdkxiaoice_defaultstatusbar">#000000</color>
+
+</resources>

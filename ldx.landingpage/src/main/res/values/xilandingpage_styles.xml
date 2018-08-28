@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="take_photo_anim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/xilandingpage_pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/xilandingpage_pop_exit_anim</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="xi_landingpage_style_progressbar">
+        <item name="android:indeterminateDrawable">@drawable/xilandingpage_progress_indeterminated</item>
+    </style>
+
+    <style name="xi_landingpage_style_option" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/xilandingpage_option_text_selector</item>
+
+    </style>
+
+    <style name="Matisse.xiconversation" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/xilandingpage_layout_background</item>
+        <item name="colorPrimaryDark">@color/xilandingpage_layout_background</item>
+        <item name="toolbar">@style/Toolbar.Zhihu</item>
+        <item name="album.dropdown.title.color">@color/zhihu_album_dropdown_title_text</item>
+        <item name="album.dropdown.count.color">@color/zhihu_album_dropdown_count_text</item>
+        <item name="album.element.color">@color/xilandingpage_white</item>
+        <item name="album.thumbnail.placeholder">@color/zhihu_album_dropdown_thumbnail_placeholder</item>
+        <item name="album.emptyView">@drawable/ic_empty_zhihu</item>
+        <item name="album.emptyView.textColor">@color/dracula_album_empty_view</item>
+        <item name="item.placeholder">@color/xilandingpage_white</item>
+        <item name="item.checkCircle.backgroundColor">@color/xilandingpage_layout_background</item>
+        <item name="item.checkCircle.borderColor">@color/xilandingpage_white</item>
+        <item name="page.bg">@color/xilandingpage_white</item>
+        <item name="bottomToolbar.bg">@color/xilandingpage_white</item>
+        <item name="bottomToolbar.preview.textColor">@color/zhihu_bottom_toolbar_preview</item>
+        <item name="bottomToolbar.apply.textColor">@color/xilandingpage_layout_background</item>
+        <item name="preview.bottomToolbar.back.textColor">@color/xilandingpage_white</item>
+        <item name="preview.bottomToolbar.apply.textColor">@color/xilandingpage_preview_bottom_toolbar_apply</item>
+        <item name="android:listPopupWindowStyle">@style/Popup.xilandingpage</item>
+        <item name="listPopupWindowStyle">@style/Popup.xilandingpage</item>
+        <item name="capture.textColor">@color/xilandingpage_white</item>
+    </style>
+
+    <style name="Popup.xilandingpage" parent="Widget.AppCompat.Light.ListPopupWindow">
+
+    </style>
+</resources>

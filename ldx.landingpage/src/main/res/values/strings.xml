@@ -1,0 +1,22 @@
+<resources>
+    <string name="xilandingpage_dialog_camera_title">拍照</string>
+    <string name="xilandingpage_dialog_gallery_title">本地图片</string>
+    <string name="xilandingpage_dialog_choose">选择图片</string>
+    <string name="xilandingpage_dialog_cancel">取消</string>
+    <string name="xilandingpage_dialog_loading">正在加载...</string>
+    <string name="xilandingpage_no_providers">没有可用的provider</string>
+    <string name="xilandingpage_wrong_authority">FileProvider 检测到错误的 authority. ( 检查你的 AndroidManifest.xml)</string>
+    <string name="xilandingpage_activity_destroyed">无法处理选择图片结果</string>
+    <string name="xilandingpage_takephoto_submit">提交图片</string>
+    <string name="xilandingpage_takephoto_quit">退出</string>
+    <string name="xilandingpage_takephoto_repeat">返回</string>
+    <string name="xilandingpage_need_camera_permission">无法打开，请检查相机权限</string>
+    <string name="xilandingpage_error_dismiss">结果丢失</string>
+    <string name="xilandingpage_chat_page_title">LandingPage</string>
+    <string name="xilandingpage_gallery_permissionerror">权限未开通!请到设置中开通相册权限或存储!</string>
+    <string name="xilandingpage_camera_permissionerror">权限未开通!请到设置中开通相机权限或存储!</string>
+    <string name="xilandingpage_shareerror_nodata">抱歉，分享数据存在错误！</string>
+    <string name="xilandingpage_network_load_error">数据获取失败\n没能完成主人的使命\n  请检查网络后再试 ~~~"</string>
+    <string name="xilandingpage_global_dataloaderror">网络连接错误，请检查您的网络</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xilandingpage_ll_webview_main_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <include
+            layout="@layout/xilandingpage_actionbar_webbrowser">
+        </include>
+
+        <ProgressBar
+            android:id="@+id/xilandingpage_mainpage_pb_loading"
+            android:background="@color/xilandingpage_white"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="2dp"
+            android:progressDrawable="@drawable/xilandingpage_progressbar_webview_loading"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <WebView
+           android:id="@+id/xilandingpage_xiaoice_mainpage_webview"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@color/xilandingpage_white"/>
+   </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xilandingpage_provider_package">.com.xiaoice.sdk.provider</string>
+    <string name="xilandingpage_image_file_name">currenttemp.jpg</string>
+    <string name="xilandingpage_image_content_type">image/*</string>
+</resources>

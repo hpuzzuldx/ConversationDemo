@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xiconversation_activity_chatpage_main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xiconversation_chatpage_bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/xiconversation_activity_chatpage_chatviewcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/xiconversation_transparent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xiconversation_activity_rl_chat_tongbao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/xiconversation_chatpage_bg_color">
+            <com.ldx.conversationbase.widget.XIBottomViewLayout
+                android:id="@+id/xiconversation_activity_ll_chat_bottom_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/xiconversation_frame_bg"
+                android:orientation="vertical">
+
+            </com.ldx.conversationbase.widget.XIBottomViewLayout>
+            <LinearLayout
+                android:id="@+id/xiconversation_activity_chatpage_left_rightmargin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/xiconversation_activity_ll_chat_bottom_container"
+                android:layout_marginLeft="@dimen/xiconversation_chatmesg_defaultmargin"
+                android:layout_marginRight="@dimen/xiconversation_chatmesg_defaultmargin"
+                android:background="@color/xiconversation_chatpage_bg_color">
+
+                <com.ldx.conversationbase.widget.pulltorefresh.XIPullToRefreshLayout
+                    android:id="@+id/xiconversation_activity_prl_chat_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/xiconversation_chatpage_bg_color"
+                    android:listSelector="@android:color/transparent"
+                    android:orientation="vertical" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xiconversation_moreselection_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/xiconversation_chatpage_bg_color"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/xiconversation_moreselection_image_bottom_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/xiconversation_moreselection_camera_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:src="@drawable/xiconversation_tb_bottom_images" />
+
+        <TextView
+            android:id="@+id/xiconversation_moreselection_camera_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/xiconversation_chat_moreselect_titlesize"
+            android:textColor="@color/xiconversation_chat_moreselect_text_color"
+            android:text="@string/xiconversation_chat_activity_bottom_chooseimage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/xiconversation_moreselection_camera_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/xiconversation_moreselection_gallery_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:src="@drawable/xiconversation_tb_bottom_take_photo" />
+
+        <TextView
+            android:id="@+id/xiconversation_moreselection_gallery_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/xiconversation_chat_moreselect_titlesize"
+            android:textColor="@color/xiconversation_chat_moreselect_text_color"
+            android:text="@string/xiconversation_chat_activity_bottom_takephoto" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/xiconversation_moreselection_phrase_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/xiconversation_tb_bottom_offen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/xiconversation_chat_activity_bottom_normalword" />
+    </LinearLayout>
+
+</LinearLayout>

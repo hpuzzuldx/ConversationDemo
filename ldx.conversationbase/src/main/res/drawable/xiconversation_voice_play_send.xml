@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/xiconversation_send_voice_node_playing0"
+        android:duration="300">
+    </item>
+
+    <item
+        android:drawable="@drawable/xiconversation_send_voice_node_playing1"
+        android:duration="300">
+    </item>
+    
+    <item
+        android:drawable="@drawable/xiconversation_send_voice_node_playing2"
+        android:duration="300">
+    </item>
+    
+    <item
+        android:drawable="@drawable/xiconversation_send_voice_node_playing3"
+        android:duration="300">
+    </item>
+
+</animation-list>

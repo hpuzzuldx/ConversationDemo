@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="xiconversation_transparent">#0000</color>
+    <color name="xiconversation_three_transparent">#30ffffff</color>
+    <color name="xiconversation_black">#000000</color>
+    <color name="xiconversation_white">#ffffff</color>
+    <color name="xiconversation_light_gray_1">#e5e5e5</color>
+    <color name="xiconversation_light_gray_2">#f0f2f6</color>
+    <color name="xiconversation_light_gray_3">#fafafa</color>
+    <color name="xiconversation_light_gray_4">#f5f5f5</color>
+    <color name="xiconversation_light_gray_5">#f3f3f3</color>
+    <color name="xiconversation_light_gray_6">#aaaaaa</color>
+    <color name="xiconversation_light_gray_7">#f0f0f0</color>
+    <color name="xiconversation_light_gray_8">#666666</color>
+    <color name="xiconversation_light_gray_9">#f4f5f7</color>
+    <color name="xiconversation_light_gray_10">#bfbfbf</color>
+    <color name="xiconversation_light_gray_11">#f1f2f6</color>
+    <color name="xiconversation_light_gray_12">#333333</color>
+    <color name="xiconversation_middle_gray_1">#999999</color>
+    <color name="xiconversation_middle_gray_2">#818181</color>
+    <color name="xiconversation_dark_gray_1">#051b28</color>
+    <color name="xiconversation_dark_gray_2">#848689</color>
+    <color name="xiconversation_dark_gray_3">#252525</color>
+    <color name="xiconversation_dark_gray_4">#232326</color>
+    <color name="xiconversation_dark_gray_5">#f2f4f5</color>
+
+    <color name="xiconversation_blue">#268ff3</color>
+    <color name="xiconversation_blue2">#0a85ff</color>
+    <color name="xiconversation_blue3">#356cb0</color>
+    <color name="xiconversation_blue4">#5795f3</color>
+    <color name="xiconversation_blue5">#2297fe</color>
+
+    <color name="xiconversation_yellow">#edbb74</color>
+    <color name="xiconversation_yellow_1">#ffb802</color>
+    <color name="xiconversation_yellow_2">#fff5e5</color>
+    <color name="xiconversation_yellow_3">#fd9c00</color>
+    <color name="xiconversation_red">#ffdd2727</color>
+    <color name="xiconversation_red1">#c82300</color>
+    <color name="xiconversation_red2">#e64a4b</color>
+    <color name="xiconversation_red3">#ff4719</color>
+    <color name="xiconversation_red4">#f2426c</color>
+    <color name="xiconversation_red5">#ff7870</color>
+    <color name="xiconversation_red6">#dd2727</color>
+    <color name="xiconversation_red7">#ff4258</color>
+    <color name="xiconversation_red8">#e72701</color>
+
+    <color name="xiconversation_mjq_red">#ff5757</color>
+    <color name="xiconversation_mjq_albumback">#E1E0DE</color>
+    <color name="xiconversation_mjq_none_color">#00000000</color>
+    <color name="xiconversation_click_bg">#d9d9d9</color>
+    <color name="xiconversation_edit_frame_bg">#e9eaec</color>
+    <color name="xiconversation_light_blue1">#3097e6</color>
+    <color name="xiconversation_light_blue2">#503097e6</color>
+    <color name="xiconversation_light_blue3">#dcf4ff</color>
+    <color name="xiconversation_light_blue4">#84d4f9</color>
+    <color name="xiconversation_light_blue5">#45b1e3</color>
+    <color name="xiconversation_light_blue6">#3299e8</color>
+    <color name="xiconversation_light_blue7">#1597f2</color>
+
+    <color name="xiconversation_zhu_light_blue">#346cb0</color>
+
+    <color name="xiconversation_zz_light_blue">#278ff3</color>
+    <color name="xiconversation_zz_divider">#e6e6e6</color>
+    <color name="xiconversation_zz_divider1">#dedede</color>
+    <color name="xiconversation_zz_invest_light_gray">#808080</color>
+    <color name="xiconversation_zz_half_transparent">#7f000000</color>
+    <color name="xiconversation_black_30_transparent">#48000000</color>
+    <color name="xiconversation_black_50_transparent">#50000000</color>
+    <color name="xiconversation_zz_seven_transparent">#70ffffff</color>
+    <color name="xiconversation_zz_light_gray_6">#ebebeb</color>
+    <color name="xiconversation_zz_4_11_16">#bbbbbb</color>
+    <color name="xiconversation_zz_gray_22">#222222</color>
+    <color name="xiconversation_text_color_gray1">#626262</color>
+    <color name="xiconversation_lines_view">#cccccc</color>
+    <color name="xiconversation_navpage">#FFE1E8EB</color>
+    <color name="xiconversation_dark_yellow_1">#ffb84c</color>
+    <color name="xiconversation_dark_white_1">#feeedc</color>
+    <color name="xiconversation_hint_red_1">#fadcdc</color>
+    <color name="xiconversation_black1">#2f2f2f</color>
+    <color name="xiconversation_black2">#656565</color>
+    <color name="xiconversation_black3">#595959</color>
+    <color name="xiconversation_black4">#343434</color>
+    <color name="xiconversation_light_blue_1">#4ca4fe</color>
+    <color name="xiconversation_light_blue_2">#14ccca</color>
+    <color name="xiconversation_light_red_1">#f26464</color>
+    <color name="xiconversation_light_blue">#1597f2</color>
+
+    <color name="xiconversation_light_gray_13">#dddddd</color>
+    <color name="xiconversation_light_gray_14">#838383</color>
+    <color name="xiconversation_light_gray_15">#999999</color>
+    <color name="xiconversation_light_gray_16">#f2f5f5</color>
+    <color name="xiconversation_light_gray_17">#f8f8f8</color>
+    <color name="xiconversation_light_gray_18">#c9c7c3</color>
+    <color name="xiconversation_light_gray_19">#b2b2b2</color>
+    <color name="xiconversation_light_gray_21">#a3a8ad</color>
+    <color name="xiconversation_light_gray_20">#d2d2d2</color>
+    <color name="xiconversation_light_gray_22">#b3b3b3</color>
+    <color name="xiconversation_light_gray_24">#a5a5a5</color>
+    <color name="xiconversation_light_gray_23">#929292</color>
+    <color name="xiconversation_light_gray_25">#e0e0e0</color>
+    <color name="xiconversation_red_dark">#634444</color>
+
+    <item name="xiconversation_subscribe_item_text_color_normal" type="color">@color/xiconversation_default_text</item>
+
+    <color name="xiconversation_subscribe_item_text_color_pressed">#ffb9b9b9</color>
+    <color name="xiconversation_default_text">#ff454545</color>
+    <color name="xiconversation_subscribe_item_text_color_pressed_night">#ff303030</color>
+    <color name="xiconversation_subscribe_item_focused_stroke">#ffd9d9d9</color>
+    <color name="xiconversation_subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="xiconversation_subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="xiconversation_subscribe_item_drag_stroke_night">#ff464646</color>
+    <color name="xiconversation_subscribe_item_drag_bg_night">#ff252525</color>
+    <color name="xiconversation_subscribe_item_selected_bg">#ffffffff</color>
+    <color name="xiconversation_subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="xiconversation_subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="xiconversation_subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="xiconversation_subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="xiconversation_subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="xiconversation_subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="xiconversation_subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="xiconversation_subscribe_item_focused_bg_night">#ff252525</color>
+    <color name="xiconversation_subscribe_item_focused_stroke_night">#ff464646</color>
+    <color name="xiconversation_subscribe_item_selected_bg_night">#ff252525</color>
+    <color name="xiconversation_subscribe_item_selected_stroke_night">#ffbc494d</color>
+    <color name="xiconversation_subscribe_item_disabled_bg_night">#ff2b2b2b</color>
+    <color name="xiconversation_project_detail_red">#ffcd2323</color>
+    <color name="xiconversation_project_detail_purple">#ff573535</color>
+    <color name="xiconversation_transparentWhite">#30ffffff</color>
+    <color name="xiconversation_transparentWhit2">#efffffff</color>
+    <color name="xiconversation_transparentGray">#e6e0e0e0</color>
+
+    <color name="xiconversation_chatpage_bg_color">#f3f3f5</color>
+    <color name="xiconversation_toolbar_haeder_color">#fafafa</color>
+    <color name="xiconversation_cardview_recycleview_divide_color">#E1E1E2</color>
+    <color name="xiconversation_chat_leftfont_color">#333333</color>
+    <color name="xiconversation_chat_moreselect_text_color">#333333</color>
+
+    <!-- Matisse -->
+    <color name="xiconversation_layout_background">#00a89d</color>
+    <color name="xiconversation_image_select_bottom_text_color">#51D4C6</color>
+
+    <color name="xiconversation_pop_menu_bg">#ffffff</color>
+    <color name="xiconversation_pop_menu_click_bg">#aaaaaa</color>
+    <color name="xiconversation_comment_popup_text">#333333</color>
+
+    <color name="xiconversation_chatpage_sendtext_bgpress">#f3f3f5</color>
+    <color name="xiconversation_chatpage_sendtext_bgfocused">#f3f3f5</color>
+    <color name="xiconversation_chatpage_sendtext_bgdefault">#f3f3f5</color>
+    <color name="xiconversation_chatpage_bottom_menu_fontcolor">#333333</color>
+
+    <color name="xiconversation_chatpage_url_text_color">#1874CD</color>
+    <color name="xiconversation_chatpage_statusbardefault_color">#000000</color>
+    <color name="xiconversation_chatpage_imageload_defcolor">#f0f0f0</color>
+</resources>

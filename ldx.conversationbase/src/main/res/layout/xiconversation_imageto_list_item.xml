@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/xiconversation_touserimg_mychat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/xiconversation_light_gray_6"
+        android:textSize="@dimen/xiconversation_chat_default_chattime_fontsize"
+        tools:visibility="visible"
+        tools:text="time"
+        android:visibility="gone" />
+
+    <com.ldx.conversationbase.widget.XICircleImageView
+        android:id="@+id/xiconversation_touserimg_tb_my_user_icon"
+        android:layout_width="@dimen/xiconversation_chatview_headicon_defsize"
+        android:layout_height="@dimen/xiconversation_chatview_headicon_defsize"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/xiconversation_touserimg_mychat_time" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xiconversation_touserimg_mychat_time"
+        android:layout_toLeftOf="@+id/xiconversation_touserimg_tb_my_user_icon"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/xiconversation_touserimg_mysend_fail_img"
+            android:layout_width="@dimen/xiconversation_sendmesgerror_imageiconsize"
+            android:layout_height="@dimen/xiconversation_sendmesgerror_imageiconsize"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/xiconversation_msg_state_fail_resend_pressed" />
+
+        <LinearLayout
+            android:id="@+id/xiconversation_touserimg_image_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/xiconversation_touserimg_image_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

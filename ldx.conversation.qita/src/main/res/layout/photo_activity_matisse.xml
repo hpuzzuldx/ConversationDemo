@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_photopreview_toolbar_defheight"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/photo_mainview_backview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/mainpreview_button_backview_str"
+                android:padding="5dp"
+                android:textColor="@color/main_preview_topbar_leftbackcolor"
+                android:textSize="@dimen/main_photopreview_toolbar_fontsizeleft" />
+
+            <TextView
+                android:id="@+id/commonlayout_headtool_centertext"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/mainpreview_button_center_title_cameraphoto"
+                android:textColor="@color/main_preview_topbar_leftbackcolor"
+                android:textSize="@dimen/main_photopreview_toolbar_fontsizecenter"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/photo_mainview_sendview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:text="@string/photo_button_apply_default"
+                android:textColor="@color/mainpreview_sendview_toolbar_apply"
+                android:textSize="@dimen/main_photopreview_toolbar_fontsizeleft" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/empty_view_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="8dp"
+            android:drawableTop="?attr/album.emptyView"
+            android:gravity="center"
+            android:text="@string/photo_empty_text"
+            android:textColor="?attr/album.emptyView.textColor"
+            android:textSize="@dimen/main_photopreview_toolbar_fontsizeleft" />
+
+    </FrameLayout>
+</RelativeLayout>

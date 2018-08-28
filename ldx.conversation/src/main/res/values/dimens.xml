@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="xiconversation_activity_horizontal_margin">16dp</dimen>
+    <dimen name="xiconversation_activity_vertical_margin">16dp</dimen>
+    <dimen name="xiconversation_imagepick_item_padding">7dp</dimen>
+    <dimen name="xiconversation_imagepick_item_textsize">20sp</dimen>
+    <dimen name="xiconversation_imagepick_item_margin">16dp</dimen>
+    <dimen name="xiconversation_headtoolbar_defheight">48dp</dimen>
+    <dimen name="xiconversation_headtoolbar_leftbackimg">25dp</dimen>
+    <dimen name="xiconversation_bottomview_defaultheight">40dp</dimen>
+
+</resources>

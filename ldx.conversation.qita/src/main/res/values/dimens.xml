@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="xiconversation_bottomview_botimg_defaultsize">27dp</dimen>
+    <dimen name="xiconversation_bottomview_bottext_defaultsize">14sp</dimen>
+    <dimen name="xiconversation_toptoolbar_defaultheight">44dp</dimen>
+    <dimen name="xiconversation_toptoolbar_leftbackimgsize">25dp</dimen>
+    <dimen name="xiconversation_bottomview_keywords_size">14sp</dimen>
+    <dimen name="xiconversation_bottomview_defaultheight">40dp</dimen>
+    <dimen name="xiconversation_bottomview_defaultwidth">50dp</dimen>
+    <dimen name="xiconversation_bottomview_keywords_defheight">40dp</dimen>
+    <dimen name="xiconversation_bottomview_wordcountlimit_size">12sp</dimen>
+    <dimen name="photo_media_grid_size">48dp</dimen>
+    <dimen name="photo_media_grid_spacing">4dp</dimen>
+    <dimen name="photo_album_item_height">72dp</dimen>
+    <dimen name="main_photopreview_toolbar_fontsizeleft">16sp</dimen>
+    <dimen name="main_photopreview_toolbar_fontsizecenter">18sp</dimen>
+    <dimen name="main_photopreview_toolbar_defheight">50dp</dimen>
+    <dimen name="photo_photopreview_toolbar_deffontsize">16sp</dimen>
+    <dimen name="xiconversation_bottomview_sendviewsize">16sp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xilandingpage_header_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_alignParentTop="true"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/xilandingpage_top_back_paddingbottom"
+    android:paddingLeft="@dimen/xilandingpage_top_back_paddingleft"
+    android:paddingRight="@dimen/xilandingpage_top_back_paddingright"
+    android:paddingTop="@dimen/xilandingpage_top_back_paddingtop"
+    android:background="@drawable/xilandingpage_border_header">
+<ImageView
+    android:id="@+id/xilandingpage_iv_navi_back"
+    android:layout_width="27dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_centerVertical="true"
+    android:src="@drawable/xilandingpage_back_arrow_black" />
+<TextView
+    android:id="@+id/xilandingpage_tv_navi_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:gravity="center"
+    android:singleLine="true"
+    android:textColor="@color/xilandingpage_black"
+    android:textSize="@dimen/xilandingpage_head_titlesize"
+    android:layout_alignBottom="@+id/xilandingpage_iv_navi_back"
+    android:layout_alignLeft="@+id/xilandingpage_iv_navi_back"
+    android:layout_alignStart="@+id/xilandingpage_iv_navi_back" />
+
+    <ImageView
+        android:id="@+id/xilandingpage_iv_navi_rightimage"
+        android:layout_width="27dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/xilandingpage_default_shareicon_gray" />
+</RelativeLayout>

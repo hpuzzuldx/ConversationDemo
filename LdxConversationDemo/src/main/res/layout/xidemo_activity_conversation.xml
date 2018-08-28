@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/xidemo_activity_conversation_b_freeintergration"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/xidemo_conversation_activity_view_demo"
+        android:textAllCaps="false"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/xidemo_text_color"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/xidemo_activity_conversation_b_freeintergration2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/xidemo_conversation_activity_view_demo"
+        android:textAllCaps="false"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/xidemo_text_color" />
+
+    <Button
+        android:id="@+id/xidemo_activity_conversation_b_quickintergration"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/xidemo_text_color"
+        android:text="@string/xidemo_conversation_single_view_demo" />
+
+    <Button
+        android:id="@+id/xidemo_activity_conversation_webviewintergration"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/xidemo_text_color"
+        android:text="@string/xidemo_conversation_activity_webview_demo" />
+    <Button
+        android:id="@+id/xidemo_activity_conversation_deletedb"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/xidemo_text_color"
+        android:text="@string/xidemo_conversation_deletedb" />
+
+    <Button
+        android:id="@+id/xidemo_activity_conversation_deleteresour"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/xidemo_conversation_deleteresource"
+        android:textAllCaps="false"
+        android:textColor="@color/xidemo_text_color" />
+
+    <Button
+        android:id="@+id/xidemo_activity_conversation_b_conversationuri"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/xidemo_text_color"
+        android:paddingLeft="5dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/xidemo_conversation_choose_url"/>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/xiconversation_popup_menu_shader_bg"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:id="@+id/xiconversation_popupmesg_contianer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/xiconversation_pop_menu_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/xiconversation_popupmesg_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/xiconversation_popupwindow_item_height"
+            android:minWidth="@dimen/xiconversation_popupwindow_item_minwidht"
+            android:background="@drawable/xiconversation_selector_menu_popup"
+            android:gravity="center_vertical"
+            android:text="@string/xiconversation_popup_mesg_copytext"
+            android:textColor="@color/xiconversation_comment_popup_text"
+            android:paddingLeft="@dimen/xiconversation_popupwindow_chatmesg_paddingleft"
+            android:textSize="@dimen/xiconversation_popupwindow_chatmesg_textsize"/>
+
+        <TextView
+            android:id="@+id/xiconversation_popupmesg_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/xiconversation_popupwindow_item_height"
+            android:minWidth="@dimen/xiconversation_popupwindow_item_minwidht"
+            android:background="@drawable/xiconversation_selector_menu_popup"
+            android:gravity="center_vertical"
+            android:text="@string/xiconversation_popup_mesg_delete"
+            android:textColor="@color/xiconversation_comment_popup_text"
+            android:paddingLeft="@dimen/xiconversation_popupwindow_chatmesg_paddingleft"
+            android:textSize="@dimen/xiconversation_popupwindow_chatmesg_textsize"/>
+
+        <TextView
+            android:id="@+id/xiconversation_popupmesg_share"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/xiconversation_popupwindow_item_height"
+            android:minWidth="@dimen/xiconversation_popupwindow_item_minwidht"
+            android:background="@drawable/xiconversation_selector_menu_popup"
+            android:gravity="center_vertical"
+            android:text="@string/xiconversation_popup_mesg_share"
+            android:textColor="@color/xiconversation_comment_popup_text"
+            android:paddingLeft="@dimen/xiconversation_popupwindow_chatmesg_paddingleft"
+            android:textSize="@dimen/xiconversation_popupwindow_chatmesg_textsize"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

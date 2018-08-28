@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xiconversation_activity_multiplefrom_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/xiconversation_frommultiple_chat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/xiconversation_light_gray_6"
+        android:textSize="@dimen/xiconversation_chat_default_chattime_fontsize"
+        android:visibility="gone"
+        tools:text="time"
+        tools:visibility="visible" />
+
+    <com.ldx.conversationbase.widget.XICircleImageView
+        android:id="@+id/xiconversation_frommultiple_tb_other_user_icon"
+        android:layout_width="@dimen/xiconversation_chatview_headicon_defsize"
+        android:layout_height="@dimen/xiconversation_chatview_headicon_defsize"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/xiconversation_frommultiple_chat_time" />
+
+    <RelativeLayout
+        android:id="@+id/xiconversation_frommultiple_datacontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/xiconversation_frommultiple_chat_time"
+        android:background="@drawable/xiconversation_chatfrom_bg_focused"
+        android:layout_toRightOf="@+id/xiconversation_frommultiple_tb_other_user_icon">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/xiconversation_frommultiple_recycleview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/xiconversation_show_morenews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xiconversation_frommultiple_recycleview"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:textSize="@dimen/xiconversation_chat_activity_cardview_bottom"
+            android:text="@string/xiconversation_cardview_recycleview_morenew"
+            android:textColor="@color/xiconversation_chat_leftfont_color"/>
+    </RelativeLayout>
+
+</RelativeLayout>

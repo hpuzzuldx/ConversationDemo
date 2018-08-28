@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xiconversation_activity_ll_chat_bottom_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/xiconversation_frame_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/xiconversation_activity_ll_chat_tongbao_utils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:id="@+id/xiconversation_opencamera"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/xiconversation_bottomview_defaultheight"
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:layout_width="@dimen/xiconversation_bottomview_defaultheight"
+                android:layout_height="@dimen/xiconversation_bottomview_defaultheight"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/xiconversation_opencamera" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/xiconversation_activity_center_bottom_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.ldx.conversation.view.XIAudioRecordButton
+                android:id="@+id/xiconversation_activity_btn_chat_voice"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/xiconversation_btndown_starttalk"
+                android:gravity="center"
+                android:minHeight="0dp"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:textColor="#727272"
+                android:visibility="gone">
+
+            </com.ldx.conversation.view.XIAudioRecordButton>
+
+            <RelativeLayout
+                android:id="@+id/xiconversation_activity_chatmesg_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="bottom">
+
+                <com.ldx.conversation.view.MulLineEditText
+                    android:id="@+id/xiconversation_activity_et_chat_mess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/inputtext_circlecorner_shape"
+                    android:imeOptions="actionSend"
+                    android:inputType="textMultiLine"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="5dp"
+                    android:hint="@string/xiconversation_bottomview_edittv_say"
+                    android:textColor="@color/xiconversation_chat_leftfont_color"
+                    android:textSize="@dimen/xiconversation_chat_activity_fontsize"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/xiconversation_activity_iv_chat_voice"
+                    android:layout_width="@dimen/xiconversation_bottomview_defaultheight"
+                    android:layout_height="@dimen/xiconversation_bottomview_defaultheight"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="bottom"
+                    android:padding="3dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/xiconversation_voice_btn_normal" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:id="@+id/xiconversation_activity_tv_chat_mess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/xiconversation_mesgsend_inactive"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="5dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

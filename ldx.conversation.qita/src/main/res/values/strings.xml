@@ -1,0 +1,27 @@
+<resources>
+    <string name="xiconversation_bottomview_mesgsend">发送</string>
+    <string name="xiconversation_bottomview_selecimgtext">图片</string>
+    <string name="xiconversation_bottomview_chatwithxiaoice">输入想说的</string>
+    <string name="xiconversation_commondialog_dialogtitle">“对话应用”想访问您的照片</string>
+    <string name="xiconversation_commondialog_dialogmesg">允许访问相册，图片更有说服力</string>
+    <string name="xiconversation_commondialog_notallow">不允许</string>
+    <string name="xiconversation_commondialog_allow">好</string>
+    <string name="photo_album_name_all">全部</string>
+    <string name="photo_button_preview">预览</string>
+    <string name="photo_button_apply_default">发送</string>
+    <string name="photo_button_apply">发送(%1$d)</string>
+    <string name="photo_button_back">返回</string>
+    <string name="photo_grid_capture">拍一张</string>
+    <string name="photo_empty_text">还没有图片或视频</string>
+    <string name="photo_button_ok">我知道了</string>
+    <string name="photo_error_over_count_default">您已经达到最大选择数量</string>
+    <string name="photo_error_over_count">最多只能选择 %1$d 个文件</string>
+    <string name="photo_error_under_quality">图片质量太低</string>
+    <string name="photo_error_over_quality">图片质量太高</string>
+    <string name="photo_error_file_type">不支持的文件类型</string>
+    <string name="photo_error_type_conflict">不能同时选择图片和视频</string>
+    <string name="photo_error_no_video_activity">没有支持视频预览的应用</string>
+    <string name="photo_preview_bottomview_sendview_send">发送</string>
+    <string name="mainpreview_button_backview_str">取消</string>
+    <string name="mainpreview_button_center_title_cameraphoto">相机图片</string>
+</resources>

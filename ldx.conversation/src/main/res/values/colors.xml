@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="xiconversation_transparent">#0000</color>
+    <color name="xiconversation_three_transparent">#30ffffff</color>
+    <color name="xiconversation_black">#000000</color>
+    <color name="xiconversation_white">#ffffff</color>
+
+    <color name="xiconversation_chatpage_bg_color">#f3f3f5</color>
+    <color name="xiconversation_toolbar_haeder_color">#FAFAFA</color>
+    <color name="xiconversation_imagepick_textcolor">#FF007AFF</color>
+    <color name="xiconversation_imagepick_dialog_bgcolor">#F1FFFFFF</color>
+    <color name="xiconversation_imagepick_item_bottomline">#F1D2D2D2</color>
+    <color name="xiconversation_toolbarheader_border">#E6ECF3</color>
+    <color name="xiconversation_inputtext_corner_color">#ECECEC</color>
+    <color name="xiconversation_imagepick_itembgcolor">#FCFCFC</color>
+    <color name="xiconversation_imagepick_itemdivider">#CFCFCF</color>
+
+</resources>

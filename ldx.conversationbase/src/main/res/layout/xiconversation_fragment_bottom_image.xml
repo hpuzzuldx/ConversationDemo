@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/xiconversation_save_photo_album_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xiconversation_selector_common_bg"
+        android:clickable="true"
+        android:padding="15dp"
+        android:text="@string/xiconversation_save_photo_album"
+        android:textColor="@color/xiconversation_chatpage_bottom_menu_fontcolor"/>
+
+    <TextView
+        android:id="@+id/xiconversation_share_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xiconversation_selector_common_bg"
+        android:clickable="true"
+        android:padding="15dp"
+        android:visibility="gone"
+        android:text="@string/xiconversation_share"
+        android:textColor="@color/xiconversation_chatpage_bottom_menu_fontcolor"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SurfaceView
+        android:id="@+id/xiconversation_camera_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.ldx.conversationbase.camera.XIFocusView
+        android:id="@+id/xiconversation_camera_focus"
+        android:layout_width="@dimen/xiconversation_cameraview_focusviewsize"
+        android:layout_height="@dimen/xiconversation_cameraview_focusviewsize"
+        android:visibility="invisible" />
+
+    <FrameLayout
+        android:id="@+id/xiconversation_camera_switch_wrapper"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="end"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/xiconversation_camera_switch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/xiconversation_ic_camera_switch" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/xiconversation_camera_picture_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <com.ldx.conversationbase.camera.XICaptureLayout
+        android:id="@+id/xiconversation_camera_capture_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp" />
+</merge>

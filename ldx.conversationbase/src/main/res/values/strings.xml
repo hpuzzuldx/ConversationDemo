@@ -1,0 +1,53 @@
+<resources>
+    <string name="xiconversation_record_normal_speak">按住 说话</string>
+    <string name="xiconversation_record_recording">松开 结束</string>
+    <string name="xiconversation_record_want_to_cancle">松开手指，取消发送</string>
+    <string name="xiconversation_record_upslip_cancel">手指上滑，取消发送</string>
+    <string name="xiconversation_record_tooshort">录音时间过短</string>
+    <string name="xiconversation_record_toolong">录音时间过长</string>
+    <string name="xiconversation_chat_activity_pushmes">发送</string>
+    <string name="xiconversation_chat_activity_bottom_chooseimage">图片</string>
+    <string name="xiconversation_chat_activity_bottom_takephoto">拍照</string>
+    <string name="xiconversation_chat_activity_bottom_normalword">常用语</string>
+    <string name="xiconversation_chat_activity_bottom_cancel">取消</string>
+    <string name="xiconversation_not_have_sd">没有SD卡</string>
+    <string name="xiconversation_memory_have_error">请检查内存卡</string>
+
+    <string name="xiconversation_need_image_permissions">禁用图片权限将导致发送图片功能无法使用！</string>
+    <string name="xiconversation_need_record_permissions">禁用录制音频权限将导致语音功能无法使用！</string>
+
+    <string name="xiconversation_sorry_not_have_file">抱歉，该文件不存在！</string>
+    <string name="xiconversation_send_message_not_null">发送的消息不能为空！</string>
+
+    <string name="xiconversation_refresh_startload">松开加载</string>
+    <string name="xiconversation_refresh_loading">正在加载</string>
+    <string name="xiconversation_refresh_pulldown_loadmore">下拉加载更多</string>
+
+    <string name="xiconversation_audio_record_permissionerror">权限未开通!请到设置中开通录音设备权限或存储权限!</string>
+    <string name="xiconversation_audio_gallery_permissionerror">权限未开通!请到设置中开通相册权限或存储权限!</string>
+    <string name="xiconversation_audio_camera_permissionerror">权限未开通!请到设置中开通相机权限或存储权限!</string>
+    <string name="xiconversation_audio_storage_permissionerror">权限未开通!请到设置中开通存储权限!</string>
+    <string name="xiconversation_chat_page_title">Ldx</string>
+    <string name="xiconversation_cardview_recycleview_morenew">更多</string>
+    <string name="xiconversation_check_network_error">网络连接有问题，请查看您的网络连接！</string>
+    <string name="xiconversation_check_no_network_notresend">网络连接有问题，无法更新！</string>
+
+    <!-- permission -->
+    <string name="xiconversation_permission_camera_tips">为确保正常运行,请前往app设置界面打开相机权限</string>
+    <string name="xiconversation_permission_record_tips">为确保正常运行,请前往app设置界面打开录音权限</string>
+    <string name="xiconversation_wait_get_response">稍等，正等待上条信息回复</string>
+    <string name="xiconversation_send_message">发送</string>
+    <string name="xiconversation_save_photo_album">保存至相册</string>
+    <string name="xiconversation_share">分享</string>
+
+    <string name="xiconversation_popup_mesg_copytext">复制</string>
+    <string name="xiconversation_popup_mesg_share">分享</string>
+    <string name="xiconversation_popup_mesg_delete">删除</string>
+
+    <string name="xiconversation_already_save_photo_album">已保存到相册</string>
+    <string name="xiconversation_error_save_photo_album">保存到相册失败</string>
+    <string name="xiconversation_error_voice_already_delete">对不起，本地音频已被删除</string>
+    <string name="xiconversation_network_load_error">数据获取失败\n没能完成主人的使命\n  请检查网络后再试 ~~~"</string>
+    <string name="xiconversation_user_first_into_indicator">你好!我是ldx，我会陪你聊天，还会告诉你这儿所有的好玩儿的东东，赶快和我聊天吧！</string>
+
+</resources>

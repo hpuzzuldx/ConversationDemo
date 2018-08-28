@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ldx对话</string>
+    <string name="xidemo_dialogchoose">图片选择</string>
+    <string name="xidemo_single_view_demo">自由定制集成Landing Page</string>
+    <string name="xidemo_activity_view_demo">快速集成Landing Page</string>
+    <string name="xidemo_landingpage_wheelview_choose_title">请选择Landing Page</string>
+    <string name="xidemo_wheelview_ok">确定</string>
+    <string name="xidemo_activity_landingpage_title">Landing Page</string>
+    <string name="xidemo_conversation_single_view_demo">自由定制集成Conversation</string>
+    <string name="xidemo_conversation_activity_view_demo">快速集成Conversation</string>
+    <string name="xidemo_conversation_activity_webview_demo">H5页面Conversation</string>
+    <string name="xidemo_conversation_choose_url">请选择Conversation</string>
+    <string name="xidemo_conversation_deletedb">清空数据库</string>
+    <string name="xidemo_conversation_deleteresource">清空图片音频资源</string>
+    <string name="xidemo_audiostory_shareweixin">微信</string>
+    <string name="xidemo_audiostory_sharepengyouquan">朋友圈</string>
+    <string name="xidemo_audiostory_shareQQ">QQ</string>
+    <string name="xidemo_audiostory_shareQQzone">QQ空间</string>
+    <string name="xidemo_audiostory_sharetype">分享方式</string>
+
+</resources>

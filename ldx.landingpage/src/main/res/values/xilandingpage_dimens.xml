@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xilandingpage_toolbar_margin_header">18dp</dimen>
+    <dimen name="xilandingpage_page_margin_default">16dp</dimen>
+    <dimen name="xilandingpage_page_margin_min">2dp</dimen>
+    <dimen name="xilandingpage_margin_bottom_default">8dp</dimen>
+    <dimen name="xilandingpage_top_back_paddingleft">10dp</dimen>
+    <dimen name="xilandingpage_top_back_paddingright">10dp</dimen>
+    <dimen name="xilandingpage_top_back_paddingtop">8dp</dimen>
+    <dimen name="xilandingpage_top_back_paddingbottom">8dp</dimen>
+    <dimen name="xilandingpage_head_titlesize">18sp</dimen>
+    <dimen name="xilandingpage_dialog_choose_titlesize">20sp</dimen>
+    <dimen name="xilandingpage_dialog_choose_confirmmenusize">15sp</dimen>
+    <dimen name="xilandingpage_dialog_choose_canclemenusize">14sp</dimen>
+
+</resources>

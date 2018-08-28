@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xiconversation_news_webview_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <include
+        layout="@layout/xiconversation_header_toolbar_view">
+    </include>
+    <ProgressBar
+        android:id="@+id/xiconversation_news_pb_loading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:progressDrawable="@drawable/xiconversation_progressbar_webview_loading"
+        android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/xiconversation_online_error_btn_retry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E6E6E6"
+            android:clickable="true"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/img_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dip"
+                android:padding="10dp"
+                android:src="@drawable/xiconversation_network_disconnected" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_error"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dip"
+                android:gravity="center"
+                android:text="@string/xiconversation_network_load_error"
+                android:textColor="#737373" />
+        </RelativeLayout>
+    <WebView
+        android:id="@+id/xiconversation_newsdetails_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/xiconversation_white"
+        android:visibility="visible"/>
+    </LinearLayout>

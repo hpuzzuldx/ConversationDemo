@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:id="@+id/xilandingpage_sv_photo_area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+    <RelativeLayout
+        android:id="@+id/xilandingpage_rl_viewcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/xilandingpage_white"
+            android:text="@string/xilandingpage_takephoto_quit" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/xilandingpage_ll_take_photo_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/xilandingpage_rl_autofocus"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:visibility="visible"
+            android:clickable="false"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/xilandingpage_ic_sync_black_24dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/xilandingpage_rl_take_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/xilandingpage_border_camera_nocolor">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/xilandingpage_dialog_img_camera"
+                android:background="@color/xilandingpage_white"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/xilandingpage_rl_flash_state"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/xilandingpage_take_photo_iv_flashstate"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/xilandingpage_img_flash_close" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/xilandingpage_ll_push_photo_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/xilandingpage_rl_take_photo_back"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/xilandingpage_takephoto_repeat" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/xilandingpage_rl_take_photo_push"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/xilandingpage_takephoto_submit" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

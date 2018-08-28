@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="xiconversation_activity_horizontal_margin">16dp</dimen>
+    <dimen name="xiconversation_activity_vertical_margin">16dp</dimen>
+    <dimen name="xiconversation_chat_activity_fontsize">16sp</dimen>
+    <dimen name="xiconversation_chat_activity_bottom_menu">14sp</dimen>
+    <dimen name="xiconversation_chat_activity_cardview_bottom">18sp</dimen>
+    <dimen name="xiconversation_chat_top_back_paddingleft">10dp</dimen>
+    <dimen name="xiconversation_chat_top_back_paddingright">10dp</dimen>
+    <dimen name="xiconversation_chat_top_back_paddingtop">8dp</dimen>
+    <dimen name="xiconversation_chat_top_back_paddingbottom">8dp</dimen>
+    <dimen name="xiconversation_chat_head_titlesize">18sp</dimen>
+    <dimen name="xiconversation_chat_moreselect_titlesize">18sp</dimen>
+    <dimen name="xiconversation_chatbottom_padding">5dp</dimen>
+    <dimen name="xiconversation_chat_default_fontsize">16sp</dimen>
+    <dimen name="xiconversation_chat_default_chattime_fontsize">12sp</dimen>
+    <dimen name="xiconversation_chat_page_bottom_sendbtn_fontsize">16sp</dimen>
+    <dimen name="xiconversation_popupwindow_chatmesg_textsize">14sp</dimen>
+    <dimen name="xiconversation_popupwindow_chatmesg_paddingleft">10dp</dimen>
+    <dimen name="xiconversation_popupwindow_item_height">40dp</dimen>
+    <dimen name="xiconversation_popupwindow_item_minwidht">60dp</dimen>
+    <dimen name="xiconversation_sendmesgerror_imageiconsize">25dp</dimen>
+    <dimen name="xiconversation_chatmesg_defaultmargin">10dp</dimen>
+    <dimen name="xiconversation_chatview_headicon_defsize">50dp</dimen>
+    <dimen name="xiconversation_detailimageview_defaultsize">18sp</dimen>
+    <dimen name="xiconversation_chatitem_voiceview_size">15dp</dimen>
+    <dimen name="xiconversation_chatitem_unreadvoice">10dp</dimen>
+    <dimen name="xiconversation_chatitem_cardview_imgsize">75dp</dimen>
+    <dimen name="xiconversation_chatitem_cardview_imgsizewidth">100dp</dimen>
+    <dimen name="xiconversation_chatitem_textitem_defaultsize">16sp</dimen>
+    <dimen name="xiconversation_cameraview_focusviewsize">120dp</dimen>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xiconversation_header_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/xiconversation_headtoolbar_defheight"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/xiconversation_border_header"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/xiconversation_chat_top_back_paddingbottom"
+    android:paddingLeft="@dimen/xiconversation_chat_top_back_paddingleft"
+    android:paddingRight="@dimen/xiconversation_chat_top_back_paddingright"
+    android:paddingTop="@dimen/xiconversation_chat_top_back_paddingtop">
+
+    <ImageView
+        android:id="@+id/xiconversation_iv_navi_back"
+        android:layout_width="@dimen/xiconversation_headtoolbar_leftbackimg"
+        android:layout_height="@dimen/xiconversation_headtoolbar_leftbackimg"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/xiconversation_back_arrow_black" />
+
+    <TextView
+        android:id="@+id/xiconversation_tv_navi_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/xiconversation_iv_navi_back"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/xiconversation_headtoolbar_centertitle"
+        android:textColor="@color/xiconversation_black1"
+        android:textSize="@dimen/xiconversation_chat_head_titlesize" />
+</RelativeLayout>

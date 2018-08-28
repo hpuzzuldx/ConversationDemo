@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.ldx.conversationbase.widget.XIPhotoViewPage
+            android:id="@+id/xiconversation_scale_vp_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.ldx.conversationbase.widget.XIPhotoViewPage>
+
+        <ProgressBar
+            android:id="@+id/xiconversation_imageView_loading_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:id="@+id/xiconversation_scale_iv_imageview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/xiconversation_zz_half_transparent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/xiconversation_scale_tv_imageview_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/xiconversation_white"
+                android:textSize="@dimen/xiconversation_detailimageview_defaultsize" />
+
+            <TextView
+                android:id="@+id/xiconversation_scale_tv_imageview_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/8"
+                android:textColor="@color/xiconversation_white"
+                android:textSize="@dimen/xiconversation_detailimageview_defaultsize" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>

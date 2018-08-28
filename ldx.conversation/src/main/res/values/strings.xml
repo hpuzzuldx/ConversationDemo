@@ -1,0 +1,7 @@
+<resources>
+    <string name="xiconversation_take_photo">Take Photo</string>
+    <string name="xiconversation_choose_photo">Choose from Album</string>
+    <string name="xiconversation_imagepick_cancel">Cancel</string>
+    <string name="xiconversation_bottomview_edittv_say">Say something</string>
+    <string name="xiconversation_headtoolbar_centertitle">Ldx</string>
+</resources>

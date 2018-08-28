@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/xilandingpage_ll_dialog_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/xilandingpage_white"
+        android:layout_margin="5dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/xilandingpage_ll_second_layer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@android:color/white"
+                android:visibility="gone">
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/xilandingpage_tv_loading_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/xilandingpage_dialog_loading"
+                    android:textColor="@drawable/xilandingpage_cancel_selector"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/xilandingpage_ll_first_layer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/xilandingpage_tv_dialog_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/xilandingpage_dialog_choose"
+                    android:textColor="@color/xilandingpage_option_text"
+                    android:textSize="@dimen/xilandingpage_dialog_choose_titlesize" />
+
+                <LinearLayout
+                    android:id="@+id/xilandingpage_ll_buttons_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:minWidth="250dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/xilandingpage_tv_choose_camera"
+                        style="@style/xi_landingpage_style_option"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.5"
+                        android:drawableLeft="@drawable/xilandingpage_dialog_img_camera"
+                        android:drawablePadding="15dp"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/xilandingpage_dialog_camera_title"
+                        android:textSize="@dimen/xilandingpage_dialog_choose_confirmmenusize"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/xilandingpage_tv_choose_gallery"
+                        style="@style/xi_landingpage_style_option"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.5"
+                        android:drawableLeft="@drawable/xilandingpage_dialog_img_gallery"
+                        android:drawablePadding="15dp"
+                        android:gravity="left|center_vertical"
+                        android:textSize="@dimen/xilandingpage_dialog_choose_confirmmenusize"
+                        android:text="@string/xilandingpage_dialog_gallery_title" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/xilandingpage_tv_choose_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:padding="10dp"
+                    android:text="@string/xilandingpage_dialog_cancel"
+                    android:textAllCaps="true"
+                    android:textColor="@drawable/xilandingpage_cancel_selector"
+                    android:textSize="@dimen/xilandingpage_dialog_choose_canclemenusize" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

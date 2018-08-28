@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xiconversation_defaultwhite">#FFFFFF</color>
+    <color name="xiconversation_chatpage_bottomimg_textcolor">#FFA7A7A7</color>
+    <color name="xiconversation_chatpage_bottomsend_textcolor">#AAAAAA</color>
+    <color name="xiconversation_chatpage_bottomsendbutton">#1B88EE</color>
+    <color name="xiconversation_keywords_bordercolor">#EDEFF3</color>
+    <color name="xiconversation_bottomview_inputborder">#EEEEEE</color>
+    <color name="xiconversation_bottom_keywords_textcolor">#666666</color>
+    <color name="xiconversation_bottom_limit_wordcount">#DF3031</color>
+    <color name="preview_bottom_toolbar_bg">#CC000000</color>
+    <color name="preview_bottom_size">#61FFFFFF</color>
+    <color name="photo_preview_bottom_sendcolor">#EE1A1A</color>
+    <color name="main_preview_topbar_leftbackcolor">#333333</color>
+    <color name="xiconversation_chatpage_bottom_cannotsend">#AAAAAA</color>
+    <color name="xiconversation_chatpage_bottom_notmoremaxworld">#A7A7A7</color>
+    <color name="xiconversation_chatpage_bottom_moremaxworld">#DF3031</color>
+    <color name="xiconversation_photo_preview_selected">#EE1A1A</color>
+</resources>

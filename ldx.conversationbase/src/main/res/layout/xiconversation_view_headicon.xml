@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xiconversation_head_icon_main_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xiconversation_zz_half_transparent" >
+
+    <LinearLayout
+        android:id="@+id/xiconversation_head_icon_main_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/xiconversation_light_gray_2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/xiconversation_head_icon_camera_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiconversation_click_bg"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/xiconversation_chat_activity_bottom_takephoto"
+                android:textColor="@color/xiconversation_dark_gray_1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/xiconversation_item_divider_line" />
+
+        <LinearLayout
+            android:id="@+id/xiconversation_head_icon_gallery_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiconversation_click_bg"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/xiconversation_chat_activity_bottom_chooseimage"
+                android:textColor="@color/xiconversation_dark_gray_1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/xiconversation_item_divider_line" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/xiconversation_item_divider_line" />
+
+        <LinearLayout
+            android:id="@+id/xiconversation_head_icon_cancel_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiconversation_click_bg"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/xiconversation_choose_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/xiconversation_chat_activity_bottom_cancel"
+                android:textColor="@color/xiconversation_dark_gray_1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

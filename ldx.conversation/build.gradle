@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    productFlavors {
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile rootProject.ext.dependencies["appcompat-v7"]
+    compile rootProject.ext.dependencies["recyclerView"]
+    compile rootProject.ext.dependencies["design"]
+    compile rootProject.ext.dependencies["matisse"]
+    compile rootProject.ext.dependencies["glide"]
+    compile rootProject.ext.dependencies["andpermission"]
+    compile rootProject.ext.dependencies["greendao"]
+    compile rootProject.ext.dependencies["photoview"]
+    compile rootProject.ext.dependencies["bootomcore"]
+    compile rootProject.ext.dependencies["bootomcommon"]
+    compile rootProject.ext.dependencies["basepopup"]
+    compile rootProject.ext.dependencies["gifdrawable"]
+    compile project(':ldx.conversationbase')
+    compile project(':ldx.landingpage')
+}

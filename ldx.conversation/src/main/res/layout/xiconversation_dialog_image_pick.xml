@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xiconversation_transparent"
+        android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/xiconversation_imagepick_item_margin"
+       android:layout_marginLeft="@dimen/xiconversation_imagepick_item_margin"
+       android:layout_marginRight="@dimen/xiconversation_imagepick_item_margin"
+       android:layout_marginBottom="5dp"
+       android:background="@drawable/xiconversation_image_pick_dialog_bg_shape"
+       android:orientation="vertical">
+       <TextView
+           android:id="@+id/xiconversation_imagepick_takephoto"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_margin="10dp"
+           android:background="@color/xiconversation_imagepick_itembgcolor"
+           android:padding="@dimen/xiconversation_imagepick_item_padding"
+           android:text="@string/xiconversation_take_photo"
+           android:textColor="@color/xiconversation_imagepick_textcolor"
+           android:textSize="@dimen/xiconversation_imagepick_item_textsize" />
+
+       <View
+           android:layout_width="match_parent"
+           android:background="@color/xiconversation_imagepick_itemdivider"
+           android:layout_height="1dp" />
+
+       <TextView
+           android:id="@+id/xiconversation_imagepick_choosephoto"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:background="@color/xiconversation_imagepick_itembgcolor"
+           android:gravity="center"
+           android:padding="@dimen/xiconversation_imagepick_item_padding"
+           android:text="@string/xiconversation_choose_photo"
+           android:textColor="@color/xiconversation_imagepick_textcolor"
+           android:textSize="@dimen/xiconversation_imagepick_item_textsize" />
+   </LinearLayout>
+
+        <TextView
+            android:id="@+id/xiconversation_imagepick_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/xiconversation_imagepick_item_padding"
+            android:layout_marginLeft="@dimen/xiconversation_imagepick_item_margin"
+            android:layout_marginRight="@dimen/xiconversation_imagepick_item_margin"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/xiconversation_image_pick_dialog_bg_shape"
+            android:text="@string/xiconversation_imagepick_cancel"
+            android:textColor="@color/xiconversation_imagepick_textcolor"
+            android:textSize="@dimen/xiconversation_imagepick_item_textsize" />
+
+    </LinearLayout>
+
+</RelativeLayout>

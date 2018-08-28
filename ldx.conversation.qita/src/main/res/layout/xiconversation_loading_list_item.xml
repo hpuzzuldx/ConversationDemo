@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/xiconversation_transparent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/xiconversation_loading_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/xiconversation_light_gray_6"
+        android:textSize="@dimen/xiconversation_chat_default_chattime_fontsize"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/xiconversation_loading_tb_other_user_icon"
+        android:layout_width="@dimen/xiconversation_chatview_headicon_defsize"
+        android:layout_height="@dimen/xiconversation_chatview_headicon_defsize"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/xiconversation_loading_time" />
+
+    <ImageView
+        android:id="@+id/xiconversation_loading_send_fail_img"
+        android:layout_width="@dimen/xiconversation_sendmesgerror_imageiconsize"
+        android:layout_height="@dimen/xiconversation_sendmesgerror_imageiconsize"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/xiconversation_loading_tb_other_user_icon"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"
+        android:background="@drawable/xiconversation_xsearch_loading" />
+    <com.ldx.conversationother.view.XIProgressView
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/xiconversation_loading_tb_other_user_icon"
+        android:layout_gravity="center_vertical"/>
+
+</RelativeLayout>

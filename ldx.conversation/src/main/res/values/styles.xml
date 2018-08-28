@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="xiconversationImagePickDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowEnterAnimation">@anim/xiconversation_slide_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/xiconversation_slide_bottom_out</item>
+    </style>
+
+    <style name="Matisse.xiconversation" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/xiconversation_layout_background</item>
+        <item name="colorPrimaryDark">@color/xiconversation_layout_background</item>
+        <item name="toolbar">@style/Toolbar.Zhihu</item>
+        <item name="album.dropdown.title.color">@color/zhihu_album_dropdown_title_text</item>
+        <item name="album.dropdown.count.color">@color/zhihu_album_dropdown_count_text</item>
+        <item name="album.element.color">@color/xiconversation_white</item>
+        <item name="album.thumbnail.placeholder">@color/zhihu_album_dropdown_thumbnail_placeholder</item>
+        <item name="album.emptyView">@drawable/ic_empty_zhihu</item>
+        <item name="album.emptyView.textColor">@color/dracula_album_empty_view</item>
+        <item name="item.placeholder">@color/xiconversation_white</item>
+        <item name="item.checkCircle.backgroundColor">@color/xiconversation_layout_background</item>
+        <item name="item.checkCircle.borderColor">@color/xiconversation_white</item>
+        <item name="page.bg">@color/xiconversation_white</item>
+        <item name="bottomToolbar.bg">@color/xiconversation_white</item>
+        <item name="bottomToolbar.preview.textColor">@color/zhihu_bottom_toolbar_preview</item>
+        <item name="bottomToolbar.apply.textColor">@color/xiconversation_layout_background</item>
+        <item name="preview.bottomToolbar.back.textColor">@color/xiconversation_white</item>
+        <item name="preview.bottomToolbar.apply.textColor">@color/xiconversation__preview_bottom_toolbar_apply</item>
+        <item name="android:listPopupWindowStyle">@style/Popup.xiconversation</item>
+        <item name="listPopupWindowStyle">@style/Popup.xiconversation</item>
+        <item name="capture.textColor">@color/xiconversation_white</item>
+    </style>
+
+</resources>

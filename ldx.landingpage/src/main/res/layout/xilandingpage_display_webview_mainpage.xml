@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/xilandingpage_ll_webview_main_container"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <include
+            layout="@layout/xilandingpage_actionbar_webbrowser">
+        </include>
+
+        <ProgressBar
+            android:id="@+id/xilandingpage_mainpage_pb_loading"
+            android:background="@color/xilandingpage_white"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="2dp"
+            android:progressDrawable="@drawable/xilandingpage_progressbar_webview_loading"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/xilandingpage_online_error_btn_retry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E6E6E6"
+        android:clickable="true"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="3dip"
+            android:padding="10dip"
+            android:src="@drawable/xilandingpage_network_disconnected" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_error"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="3dip"
+            android:gravity="center"
+            android:text="@string/xilandingpage_network_load_error"
+            android:textColor="#737373" />
+    </RelativeLayout>
+
+    <com.ldx.landingpage.views.XILandingPageView
+        android:id="@+id/xilandingpage_activity_display_mainpage_wb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/xilandingpage_white"/>
+</LinearLayout>

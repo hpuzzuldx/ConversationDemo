@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/xiconversation_cardview_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="90dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/xiconversation_frommultiple_card_image_message"
+            android:layout_width="@dimen/xiconversation_chatitem_cardview_imgsizewidth"
+            android:layout_height="@dimen/xiconversation_chatitem_cardview_imgsize"
+            android:layout_margin="5dp"
+            android:background="@color/xiconversation_chatpage_imageload_defcolor"
+            android:scaleType="centerCrop" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:id="@+id/xiconversation_frommultiple_card_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:maxLines="5"
+                android:ellipsize="end"
+                android:gravity="top"
+                android:textSize="@dimen/xiconversation_chat_activity_fontsize"
+                android:textColor="@color/xiconversation_chat_leftfont_color" />
+            <TextView
+                android:id="@+id/xiconversation_frommultiple_card_time_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:layout_below="@+id/xiconversation_frommultiple_card_text_title"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:layout_alignBottom="@id/xiconversation_cardview_container"
+        android:background="@color/xiconversation_cardview_recycleview_divide_color" />
+</RelativeLayout>
