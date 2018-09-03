@@ -1,5 +1,6 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+一个聊天应用的demo，此代码为2017年刚开始学习android时写的，没有利用mvp，也没有利用网络框架和rxjava，dagger2等高级技术，
+适合入门新手看看，高手我就不献丑了。上传到github上也是为了升级更方便，最近正在对项目结构进行修改，希望加入服务器端和长连接，然后优化项目结构。
 <img src="https://github.com/hpuzzuldx/ConversationDemo/blob/master/images/index.jpg"  width="270px">
 <br/>
 <img src="https://github.com/hpuzzuldx/ConversationDemo/blob/master/images/1.jpg"  width="270px"><br/>
@@ -14,11 +15,8 @@ TODO: Give a short introduction of your project. Let this section explain the ob
 
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+项目分成一个demo和多个module，其中conversationbase,为对话界面底层view的container，里面封装了信息发送，键盘弹起，高度自适应等操作，
+聊天界面用户可以自定义，只需要集成底部view就可以轻松的构建对话就界面，项目中提供了两套不同的对话界面的实现，希望对新手有点启发。
 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
