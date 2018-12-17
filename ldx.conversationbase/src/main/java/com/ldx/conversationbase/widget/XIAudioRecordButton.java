@@ -289,9 +289,4 @@ public class XIAudioRecordButton extends android.support.v7.widget.AppCompatButt
         }
     }
 
-    @Override
-    public boolean onPreDraw() {
-        return false;
-    }
-
 }
