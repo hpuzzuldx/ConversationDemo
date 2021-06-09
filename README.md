@@ -1,3 +1,4 @@
+![elder_vip_icon](https://user-images.githubusercontent.com/6938829/121281415-6e297a00-c90a-11eb-97e1-fb0d1bdbb27b.png)
 # Introduction 
 一个聊天应用的demo，此代码为2017年刚开始学习android时写的，没有利用mvp，也没有利用网络框架和rxjava，dagger2等高级技术，
 适合入门新手看看，高手我就不献丑了。上传到github上也是为了升级更方便，最近正在对项目结构进行修改，希望加入服务器端和长连接，然后优化项目结构。
